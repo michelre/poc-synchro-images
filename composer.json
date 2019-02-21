@@ -1,0 +1,13 @@
+{
+    "name": "rm60defn/poc-synchro-image-sw",
+    "authors": [
+        {
+            "name": "Remi Michel",
+            "email": "remi-externe.michel@edf.fr"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "katzien/php-mime-type": "^2.1"
+    }
+}

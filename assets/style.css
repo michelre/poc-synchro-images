@@ -1,0 +1,23 @@
+img:not(:last-child) {
+    margin-right: 10px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#images div:not(:last-child) {
+    margin-right: 10px;
+}
+
+#images div {
+    position: relative;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#images div:hover {
+    opacity: .7;
+}
